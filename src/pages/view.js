@@ -30,7 +30,7 @@ return <Layout>Item not found</Layout>;
     <Layout>
         <div style={itemStyles.container}>
             <div>
-            <div>{item?.cover? <img src={item.cover} width='400'/> :""}</div>
+            <div>{item.cover? <img src={item.cover} width='400'/> :""}</div>
             </div>
             <div>
                <h2>{item?.title}</h2>
